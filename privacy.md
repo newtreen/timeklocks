@@ -21,4 +21,4 @@ Time Klocks does not collect, store, transmit, or sell any personal data.
 If this policy ever changes, the change will be noted here with a new
 effective date.
 
-Questions: **SUPPORT_EMAIL_HERE**
+Questions: **spacenewt@icloud.com**

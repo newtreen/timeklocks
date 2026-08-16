@@ -72,7 +72,7 @@ the public IETF leap-second list. No analytics, no accounts, no data
 collected — see the [privacy policy](privacy.html).
 
 **Something's wrong / I have an idea.**
-Email **SUPPORT_EMAIL_HERE** — bug reports with a screenshot of the
+Email **spacenewt@icloud.com** — bug reports with a screenshot of the
 format involved get fixed fastest.
 
 ---
