@@ -9,6 +9,8 @@ by side in your Mac's menu bar.
 **[Download on the Mac App Store](APP_STORE_LINK_HERE)** · One-time
 purchase, no subscription · Requires macOS 26
 
+![Time Klocks in the menu bar — UTC with day-of-year, Goldstone, Madrid, Bengaluru, Canberra](images/hero.jpg)
+
 ---
 
 ## Quick start
@@ -25,9 +27,15 @@ purchase, no subscription · Requires macOS 26
 5. **Make it yours**: per-clock font and color (Appearance section of the
    editor), separator between clocks (Settings), Sunday/Monday weeks.
 
-<!-- GIF slots: format-editing.gif, kalculator-drag.gif, calendar.gif -->
+![The dropdown: clock list and day-of-year calendar](images/panel.jpg)
+
+![The Format Editor: drag tokens, type text, style every clock](images/editor.jpg)
+
+![Time Kalculator: drag one red line and every zone follows](images/kalculator.jpg)
 
 ## The space stuff
+
+![Mars time: sol and LMST for Perseverance](images/mars.jpg)
 
 - **Counters** — count down to (or up from) any moment, launch-clock
   style: T− becomes T+ at zero. Zero point in any time zone, DOY entry
