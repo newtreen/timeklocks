@@ -16,16 +16,26 @@ purchase, no subscription · Requires macOS 26
 ## Quick start
 
 1. **Click the clock** in your menu bar — that's the whole app. Times on
-   top, calendar below, everything else one click deeper.
+   top, calendar below, everything else one click deeper. (A fresh
+   install starts you with three example clocks: your local time, UTC in
+   day-of-year form, and Perseverance's sol clock waiting in the list.)
 2. **Edit a format**: click ✏️ next to any time. Drag tokens into the
    format line, or just click in it and type — text you type stays text,
    tokens come from the palette. Click any token to cycle its style.
-3. **Add clocks** with ➕, reorder with the arrows, show/hide with the
-   eye. The menu bar mirrors the list, top to bottom.
+3. **Add clocks** with ➕ (or duplicate one), reorder with the arrows,
+   show/hide with the eye, copy any timestamp with one click. The menu
+   bar mirrors the list, top to bottom.
 4. **Convert times**: open the Time Kalculator and drag any red line —
-   every zone (and the GPS row) moves together.
+   every zone (and the GPS row) moves together. Fields accept typed ISO,
+   DOY, or GPS values, down to the second.
 5. **Make it yours**: per-clock font and color (Appearance section of the
    editor), separator between clocks (Settings), Sunday/Monday weeks.
+6. **Share it**: Settings → Configuration exports your whole setup as a
+   `.timeklocks` file — formats, fonts, colors, images, everything — for
+   a colleague to import. Standardize a team on one set of clocks.
+
+Want more detail? **[Read the guide →](guide.html)** — twelve short
+"how do I…" sections, from your first clock to spacecraft clock kernels.
 
 ![The dropdown: clock list and day-of-year calendar](images/panel.jpg)
 
@@ -74,6 +84,31 @@ Your mission's ops team, or publicly from NAIF: look under
 `naif.jpl.nasa.gov/pub/naif/<MISSION>/kernels/sclk/`, grab the newest
 `.tsc`, and import it in the editor's SCLK tab.
 
+**My clocks disappeared from the menu bar!**
+macOS hides menu bar items when the bar is full — common on 13–14-inch
+laptops with lots of icons. Time Klocks notices and shows a small
+**⚠︎ clock icon** instead; click it and the panel tells you how to make
+room (hide a clock with the eye, shorten a format, or ⌘-drag other
+icons off the bar). The clocks return by themselves once they fit. Can't
+see even the icon? **Launch Time Klocks again** — launching the running
+app always opens its window.
+
+**How do I share my clocks with a colleague?**
+Settings → Configuration → **Export Clocks…** makes a `.timeklocks`
+file with your entire setup. They pick **Import Clocks…** and choose
+Append (adds to their list) or Replace (adopts yours wholesale).
+
+**How do I reset to a clean install?**
+Quit the app, then in Terminal: `defaults delete com.tk.TimeKlocks`.
+The next launch is a fresh start (welcome window, starter clocks) —
+export first if you want your setup back.
+
+**How do updates work?**
+Through the App Store, like any Mac app — automatically if you have
+automatic updates on. A running menu bar app picks up an installed
+update after you quit and relaunch it. Settings → Pro & About →
+**Check for Updates…** opens the App Store's Updates page.
+
 **Does Time Klocks phone home?**
 No. The only network request the app ever makes is a monthly fetch of
 the public IETF leap-second list. No analytics, no accounts, no data
@@ -85,4 +120,4 @@ format involved get fixed fastest.
 
 ---
 
-© 2026 Teerapat Khanampornpan · [Privacy](privacy.html)
+© 2026 Teerapat Khanampornpan · [Guide](guide.html) · [Privacy](privacy.html)
